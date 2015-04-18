@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+<html>
+
+  <head>
+    <meta charset='utf-8'>
+    <meta http-equiv="X-UA-Compatible" content="chrome=1">
+    <meta name="description" content="Dfasma : A tool to compare audio files in time and frequency">
+
+    <link rel="stylesheet" type="text/css" media="screen" href="stylesheets/stylesheet.css">
+
+    <title>Dfasma</title>
+  </head>
+
+  <body>
+
+    <?php include_once("header.php") ?>
+
+    <!-- MAIN CONTENT -->
+    <div id="main_content_wrap" class="outer">
+      <section id="main_content" class="inner">
+
+        <h3>Compatibility Matrix</h3>
+        These are results based on my own tests.<br/>
+        (i.e. if it doesn't compile/link/run, it means that I was unable to make it compile/link/run ...)
+
+        <br/>
+        <br/>
+        Legend for the following tables:
+        <ul>
+        <li>R: Run</li>
+        <li>L: Link but doesn't run</li>
+        <li>C: Compile but doesn't link</li>
+        <li>S: Sources available but doesn't compile</li>
+        <li>-: No source or no compiler available</li>
+        </ul>
+
+        <h5>Linux</h5>
+        Tested on: Ubuntu(14.04), Scientific Linux(6.6)
+        <table>
+        <tr><td>Linux</td><th>FFTReal</th><th>FFTW3</th><th>libsndfile</th><th>libsox</th><th>SDIF</th></tr>
+        <tr><th>32bits</th><td align="center" colspan="5">R</td></tr>
+        <tr><th>64bits</th><td align="center" colspan="5">R</td></tr>
+        </table>
+
+        <h5>Windows</h5>
+        Tested on: Windows 7(2013)
+        <table>
+        <tr><td>Windows</td><th>FFTReal</th><th>FFTW3</th><th>libsndfile</th><th>libsox</th><th>SDIF</th></tr>
+        <tr><th>32bits</th><td>R/R</td><td>R/R</td><td>R/R</td><td>R/L</td><td>-</td></tr>
+        <tr><th>64bits</th><td>-/R</td><td>-/R</td><td>-/R</td><td>-/C</td><td>-</td></tr>
+        <tr><td colspan="6">X/Y <=> MinGW/MSVC</td></tr>
+        </table>
+
+        <h5>Mac</h5>
+        To come...
+
+      </section>
+    </div>
+
+    <?php include_once("footer.php") ?>
+
+              <script type="text/javascript">
+            var gaJsHost = (("https:" == document.location.protocol) ? "https://ssl." : "http://www.");
+            document.write(unescape("%3Cscript src='" + gaJsHost + "google-analytics.com/ga.js' type='text/javascript'%3E%3C/script%3E"));
+          </script>
+          <script type="text/javascript">
+            try {
+              var pageTracker = _gat._getTracker("UA-32339002-3");
+            pageTracker._trackPageview();
+            } catch(err) {}
+          </script>
+
+
+  </body>
+</html>
