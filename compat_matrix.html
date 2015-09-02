@@ -41,37 +41,49 @@
     <div id="main_content_wrap" class="outer">
       <section id="main_content" class="inner">
 
-        <h3>Compatibility Matrix</h3>
-        Legend for the following tables:
+<!--         <h3>Compatibility Matrix</h3> -->
+<!--        Legend for the following tables:
         <ul>
         <li>R: Run</li>
         <li>L: Link but doesn't run</li>
         <li>C: Compile but doesn't link</li>
         <li>S: Sources available but doesn't compile</li>
         <li>-: No source or no compiler available</li>
-        </ul>
+        </ul>-->
 
         <h5>Linux</h5>
-        Personnal tests: Ubuntu(14.04), Scientific Linux(6.6)
-        <table>
+        Based on personnal tests: Can run with FFTW3, libsndfile, libsox and SDIF support under 32 and 64-bit machines (tested on Ubuntu(14.04) and Scientific Linux(6.6)).
+        <br/>
+        <br/>
+<!--        <table>
         <tr><td></td><th><i>core</i></th><th>FFTW3</th><th>libsndfile</th><th>libsox</th><th>SDIF</th></tr>
         <tr><th>32bits</th><td align="center" colspan="5">R</td></tr>
         <tr><th>64bits</th><td align="center" colspan="5">R</td></tr>
-        </table>
-        On Travis-CI: <a href="http://travis-ci.org/gillesdegottex/dfasma" target="_blank"><img src="https://travis-ci.org/gillesdegottex/dfasma.svg?branch=master" style="padding:0px; margin-left:-4px; margin-top:0px; margin-bottom:-5px"/></a> using FFTW3 and libsndfile.
+        </table>-->
+        Continuous Integration (using Travis): <a href="http://travis-ci.org/gillesdegottex/dfasma" target="_blank"><img src="https://travis-ci.org/gillesdegottex/dfasma.svg?branch=master" style="padding:0px; margin-left:-4px; margin-top:0px; margin-bottom:-5px"/></a> using FFTW3, libsndfile and 64-bit machine.
+        <br/>
+        Latest updates have to be compiled from GitHub. To ease this process, you can run the script <a href="https://raw.githubusercontent.com/gillesdegottex/dfasma/master/distrib/dfasma-compile-from-github.sh"><code>distrib/dfasma-compile-from-github.sh</code></a> to download and compile the latest updates or a previous version.
         <br/>
         <br/>
 
         <h5>Windows</h5>
+
 <!-- http://img.shields.io/appveyor/ci/gillesdegottex/dfasma.svg -->
-        Personnal tests: Windows 7(2013)
-        <table>
+        Based on personnal tests: Can run only with FFTW3 and libsndfile (tested on Windows 7(2013)).
+        <br/>
+        MinGW compiles only for 32-bit. MSVC compiles both 32 and 64-bit.
+
+<!--        <table>
         <tr><td></td><th><i>core</i></th><th>FFTW3</th><th>libsndfile</th><th>libsox</th><th>SDIF</th></tr>
         <tr><th>32bits</th><td>R/R</td><td>R/R</td><td>R/R</td><td>R/L</td><td>-</td></tr>
         <tr><th>64bits</th><td>-/R</td><td>-/R</td><td>-/R</td><td>-/C</td><td>-</td></tr>
         <tr><td colspan="6">X/Y <=> MinGW/MSVC</td></tr>
-        </table>
-        On AppVeyor-CI: <a href="http://ci.appveyor.com/project/gillesdegottex/dfasma" target="_blank"><img src="https://ci.appveyor.com/api/projects/status/xwr9piwemjoppm6s?svg=true" style="padding:0px; margin-left:-4px; margin-top:0px; margin-bottom:-5px"/></a> using FFTW3 and libsndfile.
+        </table>-->
+        <br/>
+        <br/>
+        Continuous Integration (using AppVeyor): <a href="http://ci.appveyor.com/project/gillesdegottex/dfasma" target="_blank"><img src="https://ci.appveyor.com/api/projects/status/xwr9piwemjoppm6s?svg=true" style="padding:0px; margin-left:-4px; margin-top:0px; margin-bottom:-5px"/></a> using FFTW3, libsndfile and both 32 and 64-bit machines (using Windows Server 2012 R2).
+        <br/>
+        You can download an installer with the very latest updates by following <a href="https://ci.appveyor.com/project/gillesdegottex/dfasma">this link</a>; then select your platform; and go under the 'Artifacts' tab on the right.
         <br/>
         <br/>
 
