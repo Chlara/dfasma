@@ -328,8 +328,8 @@ Full-Width Styles
   width: 160px;
   z-index: 10;
   bottom: -40px;
-  left: 10px;
-  height: 70px;
+  left: 2em;
+  height: 2em;
   color: #0090ff;
 }
 
@@ -338,8 +338,8 @@ Full-Width Styles
   width: 160px;
   z-index: 10;
   bottom: -40px;
-  left: 130px;
-  height: 70px;
+  left: 8em;
+  height: 2em;
   color: #0090ff;
 }
 
@@ -348,9 +348,19 @@ Full-Width Styles
   width: 160px;
   z-index: 10;
   bottom: -40px;
-  right: 200px;
-  height: 70px;
+  right: 20em;
+  height: 2em;
 /*   background: url('../images/icon_download.png') no-repeat 0% 90%; */
+  color: #0090ff;
+}
+
+#doc {
+  position: absolute;
+  width: 160px;
+  z-index: 10;
+  bottom: -40px;
+  right: 8em;
+  height: 2em;
   color: #0090ff;
 }
 
@@ -359,8 +369,8 @@ Full-Width Styles
   width: 160px;
   z-index: 10;
   bottom: -40px;
-  right: 0px;
-  height: 70px;
+  right: 2em;
+  height: 2em;
   color: #0090ff;
 }
 
