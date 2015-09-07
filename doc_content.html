@@ -1,36 +1,54 @@
-<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.0//EN" "http://www.w3.org/TR/REC-html40/strict.dtd">
-<html><head><meta name="qrichtext" content="1" /><style type="text/css">
-p, li { white-space: pre-wrap; }
-</style></head><body style=" font-family:'Ubuntu'; font-size:11pt; font-weight:400; font-style:normal;">
-<p style=" margin-top:12px; margin-bottom:12px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;"><span style=" font-weight:600;">Files</span></p>
-<ul style="margin-top: 0px; margin-bottom: 0px; margin-left: 0px; margin-right: 0px; -qt-list-indent: 1;"><li style=" margin-top:12px; margin-bottom:12px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;">Ctrl+o : Open file(s)</li>
-<li style=" margin-top:12px; margin-bottom:12px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;">Ctrl+w : Close the selected file(s)</li></ul>
-<ul style="margin-top: 0px; margin-bottom: 0px; margin-left: 0px; margin-right: 0px; -qt-list-indent: 1;"><li style=" margin-top:12px; margin-bottom:12px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;">Ctrl+r : Reload the selected file(s)</li></ul>
-<ul style="margin-top: 0px; margin-bottom: 0px; margin-left: 0px; margin-right: 0px; -qt-list-indent: 1;"><li style=" margin-top:12px; margin-bottom:12px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;">Ctrl+d : Duplicate the selected file(s)</li></ul>
-<ul style="margin-top: 0px; margin-bottom: 0px; margin-left: 0px; margin-right: 0px; -qt-list-indent: 1;"><li style=" margin-top:12px; margin-bottom:12px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;">Ctrl+s : Save the selected file(s)</li></ul>
-<p style=" margin-top:12px; margin-bottom:12px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;"><span style=" font-weight:600;">Views: zoom and scrolling</span></p>
-<ul style="margin-top: 0px; margin-bottom: 0px; margin-left: 0px; margin-right: 0px; -qt-list-indent: 1;"><li style=" margin-top:12px; margin-bottom:12px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;">Wheel : Zoom in and out.</li>
-<li style=" margin-top:12px; margin-bottom:12px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;">Shift + Right-click : Zoom while keeping the point under the mouse.</li></ul>
-<ul style="margin-top: 0px; margin-bottom: 0px; margin-left: 0px; margin-right: 0px; -qt-list-indent: 1;"><li style=" margin-top:12px; margin-bottom:12px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;">Shift + Wheel : Scroll the view in the waveform and spectrogram views.</li></ul>
-<p style=" margin-top:12px; margin-bottom:12px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;"><span style=" font-weight:600;">Selection</span></p>
-<ul style="margin-top: 0px; margin-bottom: 0px; margin-left: 0px; margin-right: 0px; -qt-list-indent: 1;"><li style=" margin-top:12px; margin-bottom:12px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;">Hold Left-click : Create a selection.</li>
-<li style=" margin-top:12px; margin-bottom:12px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;">Ctrl + Left-click : Scroll the selection.</li>
-<li style=" margin-top:12px; margin-bottom:12px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;">In Waveform view: Ctrl + Right-click : Stretch the selection from its center.</li>
-<li style=" margin-top:12px; margin-bottom:12px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;">In Phase view or Group Delay view: Ctrl+Shift + Left-click : Scroll the selection of the waveform.</li>
-<li style=" margin-top:12px; margin-bottom:12px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;">Escape key : Clear any selection.</li></ul>
-<p style=" margin-top:12px; margin-bottom:12px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;"><span style=" font-weight:600;">Playback</span></p>
-<ul style="margin-top: 0px; margin-bottom: 0px; margin-left: 0px; margin-right: 0px; -qt-list-indent: 1;"><li style=" margin-top:12px; margin-bottom:12px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;">Space : Play the current selection of the selected file (or the whole file if there is no selection).</li>
-<li style=" margin-top:12px; margin-bottom:12px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;">Ctrl + Space : Play the selected file while filtering the sound according to the spectral selection.</li></ul>
-<ul style="margin-top: 0px; margin-bottom: 0px; margin-left: 0px; margin-right: 0px; -qt-list-indent: 1;"><li style=" margin-top:12px; margin-bottom:12px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;">Escape key : Reset any filtering effects.</li></ul>
-<p style=" margin-top:12px; margin-bottom:12px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;"><span style=" font-weight:600;">Labels edition</span></p>
-<ul style="margin-top: 0px; margin-bottom: 0px; margin-left: 0px; margin-right: 0px; -qt-list-indent: 1;"><li style=" margin-top:12px; margin-bottom:12px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;">Add a label: In Edit mode, simply place the mouse cursor at the time instant where you want to add a label and write (no need to click, select, or anything else).</li>
-<li style=" margin-top:12px; margin-bottom:12px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;">Edit the text of a label: In Edit mode, click in the box of the label you want to edit.</li>
-<li style=" margin-top:12px; margin-bottom:12px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;">Move a label: Drag the label you want to move by holding its vertical line with the right mouse button.</li>
-<li style=" margin-top:12px; margin-bottom:12px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;">Delete a label: Hold the vertical line of the label you want to delete, as if you wanted to move it, and press the delete key.</li></ul>
-<p style=" margin-top:12px; margin-bottom:12px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;"><span style=" font-weight:600;">Waveform edition</span></p>
-<ul style="margin-top: 0px; margin-bottom: 0px; margin-left: 0px; margin-right: 0px; -qt-list-indent: 1;"><li style=" margin-top:12px; margin-bottom:12px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;">Grab the waveform wherever and move the mouse up or down to increase or decrease the gain (works also in the amplitude spectrum view).</li>
-<li style=" margin-top:12px; margin-bottom:12px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;">Maintain Ctrl, grab the waveform wherever and move the mouse left or right to delay the waveform.</li></ul>
-<p style=" margin-top:12px; margin-bottom:12px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;"><span style=" font-weight:600;">Estimation</span></p>
-<ul style="margin-top: 0px; margin-bottom: 0px; margin-left: 0px; margin-right: 0px; -qt-list-indent: 1;"><li style=" margin-top:12px; margin-bottom:12px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;">Ctrl+F on a sound file for estimating its fundamental frequency (F0). Make a selection in frequency for limiting the range of possible F0 (thus, overriding the default range sets in this setting panel).</li>
-<li style=" margin-top:12px; margin-bottom:12px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;">Ctrl+F on a F0 file for re-estimating it. Make a time selection for limiting the update to the selection.</li>
-<li style=" margin-top:12px; margin-bottom:12px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;">Ctrl+Shift+F force the F0 (re-)estimation disregarding any voice/unvoice decision.</li></ul></body></html>
+<small>(On OSX, control key (Ctrl) is the  Command key (&#8984;))</small>
+
+<h4>Files</h4>
+<ul>
+<li>Ctrl+o : Open file(s)</li>
+<li>Ctrl+w : Close the selected file(s)</li>
+<li>Ctrl+r : Reload the selected file(s)</li>
+<li>Ctrl+d : Duplicate the selected file(s)</li>
+<li>Ctrl+s : Save the selected file(s)</li>
+</ul>
+
+<h4>Views: zoom and scrolling</h4>
+<ul>
+<li>Wheel : Zoom in and out.</li>
+<li>Shift + Right-click : Zoom while keeping the point under the mouse.</li>
+<li>Shift + Wheel : Scroll the view in the waveform and spectrogram views.</li>
+</ul>
+
+<h4>Selection</h4>
+<ul>
+<li>Hold Left-click : Create a selection.</li>
+<li>Ctrl + Left-click : Scroll the selection.</li>
+<li>In Waveform view: Ctrl + Right-click : Stretch the selection from its center.</li>
+<li>In Phase view or Group Delay view: Ctrl+Shift + Left-click : Scroll the selection of the waveform.</li>
+<li>Escape key : Clear any selection.</li>
+</ul>
+
+<h4>Playback</h4>
+<ul>
+<li>Space : Play the current selection of the selected file (or the whole file if there is no selection).</li>
+<li>Ctrl + Space : Play the selected file while filtering the sound according to the spectral selection.</li>
+<li>Escape key : Reset any filtering effects.</li>
+</ul>
+
+<h4>Labels edition</h4>
+<ul>
+<li>Add a label: In Edit mode, simply place the mouse cursor at the time instant where you want to add a label and write (no need to click, select, or anything else).</li>
+<li>Edit the text of a label: In Edit mode, click in the box of the label you want to edit.</li>
+<li>Move a label: Drag the label you want to move by holding its vertical line with the right mouse button.</li>
+<li>Delete a label: Hold the vertical line of the label you want to delete, as if you wanted to move it, and press the delete key.</li>
+</ul>
+
+<h4>Waveform edition</h4>
+<ul>
+<li>Grab the waveform wherever and move the mouse up or down to increase or decrease the gain (works also in the amplitude spectrum view).</li>
+<li>Maintain Ctrl, grab the waveform wherever and move the mouse left or right to delay the waveform.</li>
+</ul>
+
+<h4>Estimation</h4>
+<ul>
+<li>Ctrl+F on a sound file for estimating its fundamental frequency (F0). Make a selection in frequency for limiting the range of possible F0 (thus, overriding the default range sets in this setting panel).</li>
+<li>Ctrl+F on a F0 file for re-estimating it. Make a time selection for limiting the update to the selection.</li>
+<li>Ctrl+Shift+F force the F0 (re-)estimation disregarding any voice/unvoice decision.</li>
+</ul>
