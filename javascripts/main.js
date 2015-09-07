@@ -5,3 +5,7 @@ $(function(){
 $(function(){
   $("#footer_wrap").load("footer_wrap.html");
 });
+
+$(function(){
+  $("#doc_content").load("doc_content.html");
+});
