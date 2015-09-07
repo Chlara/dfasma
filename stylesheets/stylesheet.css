@@ -329,7 +329,7 @@ Full-Width Styles
   z-index: 10;
   bottom: -40px;
   left: 1em;
-  height: 7em;
+  height: 5em;
   color: #0090ff;
 }
 
@@ -338,8 +338,8 @@ Full-Width Styles
   width: 160px;
   z-index: 10;
   bottom: -40px;
-  left: 7em;
-  height: 7em;
+  left: 6em;
+  height: 5em;
   color: #0090ff;
 }
 
@@ -348,8 +348,8 @@ Full-Width Styles
   width: 160px;
   z-index: 10;
   bottom: -40px;
-  right: 14em;
-  height: 7em;
+  right: 16em;
+  height: 5em;
 /*   background: url('../images/icon_download.png') no-repeat 0% 90%; */
   color: #0090ff;
 }
@@ -359,8 +359,8 @@ Full-Width Styles
   width: 160px;
   z-index: 10;
   bottom: -40px;
-  right: 10em;
-  height: 7em;
+  right: 9em;
+  height: 5em;
   color: #0090ff;
 }
 
@@ -370,7 +370,7 @@ Full-Width Styles
   z-index: 10;
   bottom: -40px;
   right: 1em;
-  height: 7em;
+  height: 5em;
   color: #0090ff;
 }
 
