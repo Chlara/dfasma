@@ -2,3 +2,6 @@
 $(function(){
   $("#header_wrap").load("header_wrap.html");
 });
+$(function(){
+  $("#footer_wrap").load("footer_wrap.html");
+});
