@@ -12,6 +12,7 @@
     <link rel="icon" type="image/png" href="http://gillesdegottex.github.io/dfasma/images/dfasma.png">
 
     <script src="javascripts/jquery.min.js"></script>
+    <script type="text/javascript">(function(a){a.fn.inc=function(b,c,d,e){return this.length&&b?this.each(function(){e=a(this);a.ajax({url:b,success:function(f,g,h){e.html(a.isFunction(c)?c(f,b):f);a.isFunction(d)&&d(b,g,h)}})}):this};a(function(){a('[class*="inc:"]').each(function(){var b=/inc:(\S+)/.exec(this.className||"");b&&a(this).inc(unescape(b[1]))})})})(jQuery);</script>
     <script src="javascripts/main.js"></script>
 
     <title>DFasma</title>
@@ -19,8 +20,9 @@
 
   <body>
 
-    <iframe src="header_wrap.html"></iframe>
-
+    <p class="inc:header_wrap.html">This text will be replaced
+    with header_wrap.html</p>
+    
     <!-- MAIN CONTENT -->
     <div id="main_content_wrap" class="outer">
       <section id="main_content" class="inner">
