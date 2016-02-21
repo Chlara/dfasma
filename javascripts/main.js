@@ -9,3 +9,6 @@ $(function(){
 $(function(){
   $("#doc_content").load("doc_content.html");
 });
+$(function(){
+  $("#cmdhelp_content").load("cmdhelp_content.html");
+});
