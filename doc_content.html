@@ -7,22 +7,23 @@
 <li>Ctrl+r : Reload the selected file(s)</li>
 <li>Ctrl+d : Duplicate the selected file(s)</li>
 <li>Ctrl+s : Save the selected file(s)</li>
+<li>SDIF files can be followed by a selector:<br/>&lt;filename&gt;[::[#stream][:frame][/matrix][.column]</li>
 </ul>
 
 <h4>Views: zoom and scrolling</h4>
 <ul>
 <li>Mouse wheel : Zoom in and out.</li>
-<li>Shift + Right-click : Zoom while keeping the point under the mouse.</li>
+<li>Shift + Hold right-click + Mouse move: Zoom on x,y-axis according to the mouse move, while keeping the coordinate pointed fixed.</li>
 <li>Shift + Wheel : Scroll the view in the waveform and spectrogram views.</li>
 <li>'s' key : Zoom on the current selection.</li>
 </ul>
 
 <h4>Selection</h4>
 <ul>
-<li>Hold Left-click : Create a selection.</li>
-<li>Ctrl + Left-click : Scroll the selection.</li>
-<li>In Waveform view: Ctrl + Right-click : Stretch the selection from its center.</li>
-<li>In Phase view or Group Delay view: Ctrl+Shift + Left-click : Scroll the selection of the waveform.</li>
+<li>Hold left-click + Mouse move: Create a selection.</li>
+<li>Ctrl + Hold left-click + Mouse move: Scroll the selection.</li>
+<li>In Waveform view: Ctrl + Hold right-click + Mouse move: Stretch the selection from its center.</li>
+<li>In Phase view or Group Delay view: Hold both Ctrl,Shift and Left-click + Mouse move: Scroll the selection of the waveform.</li>
 <li>Escape key : Clear any selection.</li>
 </ul>
 
@@ -38,6 +39,7 @@
 <li>Add a label: In Edit mode, simply place the mouse cursor at the time instant where you want to add a label and write (no need to click, select, or anything else).</li>
 <li>Edit the text of a label: In Edit mode, click in the box of the label you want to edit.</li>
 <li>Move a label: Drag the label you want to move by holding its vertical line with the left mouse button.</li>
+<li>Move all labels: Hold Ctrl press left mouse button outside of any specific label and move mouse.</li>
 <li>Delete a label: Hold the vertical line of the label you want to delete, as if you wanted to move it, and press the delete key.</li>
 </ul>
 
@@ -45,6 +47,7 @@
 <ul>
 <li>Grab the waveform wherever and move the mouse up or down to increase or decrease the gain (works also in the amplitude spectrum view).</li>
 <li>Maintain Ctrl, grab the waveform wherever and move the mouse left or right to delay the waveform.</li>
+<li>Grab the phase spectrum or grop-delay and move it for delaying the waveform.</li>
 </ul>
 
 <h4>Estimation</h4>
