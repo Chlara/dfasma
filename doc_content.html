@@ -32,6 +32,7 @@
 <li>Space : Play the current selection of the selected file (or the whole file if there is no selection).</li>
 <li>Shift + Space : Play the selected file while filtering the sound according to the spectral selection.</li>
 <li>Escape key : Reset any filtering effects.</li>
+<li>If no selection, put the play cursor at the beginning.</li>
 </ul>
 
 <h4>Labels edition</h4>
@@ -40,19 +41,21 @@
 <li>Edit the text of a label: In Edit mode, click in the box of the label you want to edit.</li>
 <li>Move a label: Drag the label you want to move by holding its vertical line with the left mouse button.</li>
 <li>Move all labels: Hold Ctrl press left mouse button outside of any specific label and move mouse.</li>
-<li>Delete a label: Hold the vertical line of the label you want to delete, as if you wanted to move it, and press the delete key.</li>
+<li>Delete a label: Hold the vertical line of the label you want to delete (as if you wanted to move it) and press the delete key.</li>
 </ul>
 
-<h4>Waveform edition</h4>
+<h4>Waveform edition: Gain modification and alignment, delay modification</h4>
 <ul>
 <li>Grab the waveform wherever and move the mouse up or down to increase or decrease the gain (works also in the amplitude spectrum view).</li>
+<li>Ctrl+g on a sound file to align it to -24dB (the -24dB reference can be changed in the settings).</li>
 <li>Maintain Ctrl, grab the waveform wherever and move the mouse left or right to delay the waveform.</li>
-<li>Grab the phase spectrum or grop-delay and move it for delaying the waveform.</li>
+<li>Grab the phase spectrum or group-delay and move it for delaying the waveform.</li>
 </ul>
 
 <h4>Estimation</h4>
 <ul>
-<li>Ctrl+F on a sound file for estimating its fundamental frequency (F0). Make a selection in frequency for limiting the range of possible F0 (thus, overriding the default range sets in this setting panel).</li>
-<li>Ctrl+F on a F0 file for re-estimating it. Make a time selection for limiting the update to the selection.</li>
-<li>Ctrl+Shift+F force the F0 (re-)estimation disregarding any voice/unvoice decision.</li>
+<li>Ctrl+f on a sound file for estimating its fundamental frequency (F0). Make a selection in frequency for limiting the range of possible F0 (thus, overriding the default range sets in this setting panel).</li>
+<li>Ctrl+f on a F0 file for re-estimating it. Make a time selection for limiting the update to the selection.</li>
+<li>Ctrl+Shift+f force the F0 (re-)estimation disregarding any voice/unvoice decision.</li>
+<li>Ctrl+v on a F0 file for extracting the voiced segments in a label file.</li>
 </ul>
